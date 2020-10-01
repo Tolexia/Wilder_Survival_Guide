@@ -1,52 +1,63 @@
+
 .header {
   text-align: center;
-  font-size: 30px;
   background-color: #CFD8DC;
   color: #212121;
-  font-family: 'Bungee Inline', cursive;
+  font-family: 'Black Ops One', cursive;
   display: flex;
   flex-direction: column;
 }
 
 .the {
-  font-size: 70px;
+  font-size: 5vw;
   font-weight: 1000;
   margin: 0;
 }
 .wilder {
-  font-size: 100px;
+  font-size: 8vw;
   font-weight: 1000;
   margin: 0;
 }
 
 .firstTitle {
-  font-size: 70px;
+  font-size: 5vw;
   font-weight: 1000;
 }
 
 .secondTitle {
-  padding-top: 15px;
-  color: rgb(255, 0, 0);
-  font-size: 40px;
-  font-weight: 1000;
-  border: 1rem solid red;
-  width: 800px;
+  font-size: 4vw;
+  width: 90%;
+  padding: 1vw;
   justify-content: center;
+  border: 1vw solid red;
+  margin: 0 auto;
+}
+
+.insideBorder {
   margin: 0 auto;
 }
 
 .contributors {
   padding-top: 50px;
 }
-.contributorsRight {
+.contributorsTop {
   display: flex;
   justify-content: space-around;
+  font-size: 2vw;
 }
-.contributorsLeft {
+.contributorsBottom {
   display: flex;
   justify-content: space-around;
+  font-size: 2vw;
 }
 
+.axel {
+  padding-left: 1.5vw;
+}
+
+.thomas {
+  padding-right: 1.5vw;
+}
 
 html, body {
   margin: 0;
@@ -134,7 +145,7 @@ section#timeline article div.inner h2:after {
   position: absolute;
   top: 20px;
   right: -5px;
-  	width: 10px; 
+  	width: 10px;
 	  height: 10px;
   -webkit-transform: rotate(-45deg);
 }
@@ -182,7 +193,7 @@ section#timeline article:nth-child(5) div.inner h2 {
 section#timeline article:nth-child(5) div.inner h2:after {
   background: #9b59b6;
 }
-  
+
 @media screen and (max-width:414px)  {
     .main-timeline .timeline:last-child:nth-child(even) {
       display:none;
