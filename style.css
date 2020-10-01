@@ -86,7 +86,6 @@ section#timeline article div.inner h2:after {
   right: -5px;
   	width: 10px; 
 	  height: 10px;
-  -webkit-transform: rotate(-45deg);
 }
 section#timeline article div.inner p {
   padding: 15px;
