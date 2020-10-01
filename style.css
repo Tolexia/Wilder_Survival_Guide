@@ -109,24 +109,12 @@ section#timeline article div.inner span.date {
   border: 2px solid rgba(255,255,255,0.2);
   box-shadow: 0 0 0 7px #525151;
 }
-section#timeline article div.inner span.date:nth-of-type(1){
-  background: #02e602;
-  border: 2px solid rgba(255,255,255,0.2);
-  box-shadow: 0 0 0 7px #02e602;
-}
+
 section#timeline article div.inner span.date span {
   display: block;
   text-align: center;
 }
-section#timeline article div.inner span.date span.day {
-  font-size: 10px;
-}
-section#timeline article div.inner span.date span.month {
-  font-size: 18px;
-}
-section#timeline article div.inner span.date span.year {
-  font-size: 10px;
-}
+
 section#timeline article div.inner h2 {
   padding: 15px;
   margin: 0;
