@@ -91,7 +91,7 @@ section#timeline article div.inner {
   margin: 5px 0 0 0;
   border-radius: 6px;
 }
-section#timeline article div.inner span.date {
+section#timeline article div.inner span.step {
   display: block;
   width: 60px;
   height: 50px;
@@ -110,7 +110,8 @@ section#timeline article div.inner span.date {
   box-shadow: 0 0 0 7px #525151;
 }
 
-section#timeline article div.inner span.date span {
+section#timeline article div.inner span.step span {
+
   display: block;
   text-align: center;
 }
@@ -191,3 +192,4 @@ section#timeline article:nth-child(5) div.inner h2:after {
 .contributors{
     border-bottom: 2.5px solid;
     border-color: linear-gradient(grey, Black);
+}
