@@ -91,7 +91,7 @@ section#timeline article div.inner {
   margin: 5px 0 0 0;
   border-radius: 6px;
 }
-section#timeline article div.inner span.step {
+section#timeline article span.step {
   display: block;
   width: 60px;
   height: 50px;
@@ -110,9 +110,8 @@ section#timeline article div.inner span.step {
   box-shadow: 0 0 0 7px #525151;
 }
 
-section#timeline article div.inner span.step span {
+section#timeline article span.step {
 
-  display: block;
   text-align: center;
 }
 
@@ -180,9 +179,7 @@ section#timeline article:nth-child(5) div.inner h2:after {
 }
   
 @media screen and (max-width:414px)  {
-    article {
-      display:none;
-    }
+    
 
 }
 .button{
