@@ -196,3 +196,10 @@ section#timeline article:nth-child(5) div.inner h2:after {
     }
 
 }
+.button{
+  text-align: center;
+}
+
+.contributors{
+    border-bottom: 2.5px solid;
+    border-color: linear-gradient(grey, Black);
