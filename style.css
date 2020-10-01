@@ -6,6 +6,7 @@
   font-family: 'Black Ops One', cursive;
   display: flex;
   flex-direction: column;
+  margin-bottom: 200px;
 }
 
 .the {
@@ -65,7 +66,7 @@ html, body {
   font-family: Helvetica, sans-serif;
 }
 body {
-  background: #25303B;
+  background: #CFD8DC;
 }
 section#timeline {
   width: 80%;
@@ -87,6 +88,7 @@ section#timeline article {
   width: 100%;
   margin: 0 0 20px 0;
   position: relative;
+  margin-bottom: 100px;
 }
 section#timeline article:after {
   content: '';
@@ -99,7 +101,7 @@ section#timeline article div.inner {
   margin: 5px 0 0 0;
   border-radius: 6px;
 }
-section#timeline article div.inner span.date {
+section#timeline article span.step {
   display: block;
   width: 60px;
   height: 50px;
@@ -112,24 +114,17 @@ section#timeline article div.inner span.date {
   font-size: 12px;
   font-weight: 900;
   text-transform: uppercase;
-  background: #25303B;
+  background: #525151;
   color: rgba(255,255,255,0.5);
   border: 2px solid rgba(255,255,255,0.2);
-  box-shadow: 0 0 0 7px #25303B;
+  box-shadow: 0 0 0 7px #525151;
 }
-section#timeline article div.inner span.date span {
-  display: block;
+
+section#timeline article span.step {
+
   text-align: center;
 }
-section#timeline article div.inner span.date span.day {
-  font-size: 10px;
-}
-section#timeline article div.inner span.date span.month {
-  font-size: 18px;
-}
-section#timeline article div.inner span.date span.year {
-  font-size: 10px;
-}
+
 section#timeline article div.inner h2 {
   padding: 15px;
   margin: 0;
@@ -147,7 +142,6 @@ section#timeline article div.inner h2:after {
   right: -5px;
   	width: 10px;
 	  height: 10px;
-  -webkit-transform: rotate(-45deg);
 }
 section#timeline article div.inner p {
   padding: 15px;
@@ -164,39 +158,45 @@ section#timeline article:nth-child(2n+2) div.inner h2:after {
   left: -5px;
 }
 section#timeline article:nth-child(1) div.inner h2 {
-  background: #e74c3c;
+  background: #02e602;
 }
 section#timeline article:nth-child(1) div.inner h2:after {
-  background: #e74c3c;
+  background: #02e602;
 }
 section#timeline article:nth-child(2) div.inner h2 {
-  background: #2ecc71;
+  background: #02e602;
 }
 section#timeline article:nth-child(2) div.inner h2:after {
-  background: #2ecc71;
+  background: #02e602;
 }
 section#timeline article:nth-child(3) div.inner h2 {
-  background: #e67e22;
+  background: #525151;
 }
 section#timeline article:nth-child(3) div.inner h2:after {
-  background: #e67e22;
+  background: #525151;
 }
 section#timeline article:nth-child(4) div.inner h2 {
-  background: #1abc9c;
+  background: #525151;
 }
 section#timeline article:nth-child(4) div.inner h2:after {
-  background: #1abc9c;
+  background: #525151;
 }
 section#timeline article:nth-child(5) div.inner h2 {
-  background: #9b59b6;
+  background: #525151;
 }
 section#timeline article:nth-child(5) div.inner h2:after {
-  background: #9b59b6;
+  background: #525151;
 }
 
 @media screen and (max-width:414px)  {
-    .main-timeline .timeline:last-child:nth-child(even) {
-      display:none;
-    }
+    
 
+}
+.button{
+  text-align: center;
+}
+
+.contributors{
+    border-bottom: 2.5px solid;
+    border-color: linear-gradient(grey, Black);
 }
