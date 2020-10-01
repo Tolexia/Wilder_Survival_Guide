@@ -1,3 +1,54 @@
+
+.header {
+  text-align: center;
+  font-size: 30px;
+  background-color: #CFD8DC;
+  color: #212121;
+  font-family: 'Black Ops One', cursive;
+  display: flex;
+  flex-direction: column;
+}
+
+.the {
+  font-size: 70px;
+  font-weight: 1000;
+  margin: 0;
+}
+.wilder {
+  font-size: 100px;
+  font-weight: 1000;
+  margin: 0;
+}
+
+.firstTitle {
+  font-size: 70px;
+  font-weight: 1000;
+}
+
+.secondTitle {
+  padding-top: 15px;
+  color: rgb(255, 0, 0);
+  font-size: 40px;
+  font-weight: 1000;
+  border: 1rem solid red;
+  width: 800px;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.contributors {
+  padding-top: 50px;
+}
+.contributorsRight {
+  display: flex;
+  justify-content: space-around;
+}
+.contributorsLeft {
+  display: flex;
+  justify-content: space-around;
+}
+
+
 html, body {
   margin: 0;
   padding: 0;
@@ -38,7 +89,7 @@ section#timeline article div.inner {
   margin: 5px 0 0 0;
   border-radius: 6px;
 }
-section#timeline article div.inner span.date {
+section#timeline article div.inner span.step {
   display: block;
   width: 60px;
   height: 50px;
@@ -56,19 +107,15 @@ section#timeline article div.inner span.date {
   border: 2px solid rgba(255,255,255,0.2);
   box-shadow: 0 0 0 7px #25303B;
 }
-section#timeline article div.inner span.date span {
+section#timeline article div.inner span.step span {
   display: block;
   text-align: center;
 }
-section#timeline article div.inner span.date span.day {
-  font-size: 10px;
-}
-section#timeline article div.inner span.date span.month {
+
+section#timeline article div.inner span.step span.number {
   font-size: 18px;
 }
-section#timeline article div.inner span.date span.year {
-  font-size: 10px;
-}
+
 section#timeline article div.inner h2 {
   padding: 15px;
   margin: 0;
@@ -86,7 +133,6 @@ section#timeline article div.inner h2:after {
   right: -5px;
   	width: 10px; 
 	  height: 10px;
-  -webkit-transform: rotate(-45deg);
 }
 section#timeline article div.inner p {
   padding: 15px;
