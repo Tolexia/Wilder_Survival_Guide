@@ -225,7 +225,7 @@ section#timeline article:nth-child(5) div.inner h2:after {
   margin:4px;
   text-decoration:none;
   background-color: #e9e9e9;
-  box-shadow:inset 0 0 1em rgb(128, 129, 131);
+  box-shadow:inset 0 0 0.25em rgb(128, 129, 131);
 }
 
 .contributors{
