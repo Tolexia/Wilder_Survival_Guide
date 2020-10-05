@@ -68,12 +68,12 @@ html, body {
 body {
   background: #CFD8DC;
 }
-section#timeline {
+section {
   width: 80%;
   margin: 20px auto;
   position: relative;
 }
-section#timeline:before {
+section:before {
   content: '';
   display: block;
   position: absolute;
@@ -84,24 +84,24 @@ section#timeline:before {
   height: 100%;
   background: rgba(255,255,255,0.2);
 }
-section#timeline article {
+section article {
   width: 100%;
   margin: 0 0 20px 0;
   position: relative;
   margin-bottom: 100px;
 }
-section#timeline article:after {
+section article:after {
   content: '';
   display: block;
   clear: both;
 }
-section#timeline article div.inner {
+section article div.inner {
   width: 40%;
   float: left;
   margin: 5px 0 0 0;
   border-radius: 6px;
 }
-section#timeline article span {
+section article span {
   display: block;
   width: 60px;
   height: 50px;
@@ -151,7 +151,7 @@ section article div.inner h2:after {
   	width: 10px;
 	  height: 10px;
 }
-section#timeline article div.inner p {
+section article div.inner p {
   padding: 15px;
   margin: 0;
   font-size: 14px;
@@ -251,12 +251,18 @@ section article:nth-child(5) div.inner h2:after {
     border-bottom: 2.5px solid;
     border-color: linear-gradient(grey, Black);
 }
-
+.responsiveLabel {display:none;}
 @media screen and (max-width:414px)  {
-    .inner, .links, .checkButton {
+    .inner {
       display:none;
       
     }
-    
+    #responsiveButton4{
+      display:block;
+    }
+    #responsiveButton4:checked + div.inner {
+      display:block;
+      width:100%;
+    }
 
 }
