@@ -6,7 +6,7 @@
   font-family: 'Black Ops One', cursive;
   display: flex;
   flex-direction: column;
-  margin-bottom: 200px;
+  margin-bottom: 10%;
 }
 
 .the {
@@ -240,20 +240,7 @@ section  article div.inner h2:after {
     border-color: linear-gradient(grey, Black);
 }
 .responsiveLabel {display:none;}
-@media screen and (max-width:414px)  {
-    .inner {
-      display:none;
-      
-    }
-    #responsiveButton4{
-      display:block;
-    }
-    #responsiveButton4:checked + div.inner {
-      display:block;
-      width:100%;
-    }
 
-}
 
 footer{
 	position: relative;
@@ -420,4 +407,22 @@ footer{
 		font-size: auto;
 	}
  
+}
+@media screen and (max-width:414px)  {
+  body{
+    display:flex;
+    flex-direction: column;
+  }
+  section article div.inner.inner{
+   float:center;
+   width:100%;
+  }
+  section article span{
+    position:relative;
+    float:center;
+    margin-bottom:50px;
+  }
+  .intro{
+    font-size:20px;
+  }
 }
