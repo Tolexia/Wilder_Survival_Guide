@@ -68,6 +68,18 @@ html, body {
 body {
   background: #CFD8DC;
 }
+.intro{
+  text-align: center;
+  font-size: 28px;
+  font-style: oblique;
+  background-color: rgb(190, 191, 192);
+  padding:15px;
+  margin-bottom: 80px;
+  opacity:0.8;
+  border-radius: 12px;
+  box-shadow: 0 0.2em 0.5em rgb(34, 34, 34);
+  text-shadow: 1px 1px 2px rgb(95, 91, 91); 
+}
 section {
   width: 80%;
   margin: 20px auto;
@@ -154,52 +166,28 @@ section article div.inner h2:after {
 section article div.inner p {
   padding: 15px;
   margin: 0;
+  margin-bottom: 20px;
   font-size: 14px;
   background: #fff;
   color: #656565;
   border-radius: 0 0 6px 6px;
+  box-shadow: 0 0 0.5em black;
 }
-section#timeline article:nth-child(2n+2) div.inner {
+section article:nth-child(2n+2) div.inner {
   float: right;
 }
-section#timeline article:nth-child(2n+2) div.inner h2::after {
+section article:nth-child(2n+2) div.inner h2::after {
   left: -5px;
 }
-section  article:nth-child(1) div.inner h2 {
+section  article div.inner h2 {
   background: #929191;
   box-shadow:inset 0 0 1em rgb(54, 54, 54);
 }
-section  article:nth-child(1) div.inner h2:after {
+section  article div.inner h2:after {
   background:  #929191;
 }
-section article:nth-child(2) div.inner h2 {
-  background: #929191;
-  box-shadow:inset 0 0 1em rgb(54, 54, 54);
-}
-section  article:nth-child(2) div.inner h2:after {
-  background: #929191;
-}
-section  article:nth-child(3) div.inner h2 {
-  background: #929191;
-  box-shadow:inset 0 0 1em rgb(54, 54, 54);
-}
-section  article:nth-child(3) div.inner h2:after {
-  background: #929191;
-}
-section  article:nth-child(4) div.inner h2 {
-  background: #929191;
-  box-shadow:inset 0 0 1em rgb(54, 54, 54);
-}
-section article:nth-child(4) div.inner h2:after {
-  background: #929191;
-}
-section article:nth-child(5) div.inner h2 {
-  background: #929191;
-  box-shadow:inset 0 0 1em rgb(54, 54, 54);
-}
-section article:nth-child(5) div.inner h2:after {
-  background: #929191;
-}
+
+
 .button{
   display:inline-block;
   text-align: center;
@@ -217,7 +205,7 @@ section article:nth-child(5) div.inner h2:after {
   border:1px solid black;
   border-radius: 12px;
   padding:4px;
-  margin-top:12px;
+  margin-top:20px;
   background: #dbdbdb;
   box-shadow: inset 0 0 0.5em rgba(255,255,255,0.2);
 }
