@@ -261,24 +261,34 @@ section  article div.inner h2:after {
   box-shadow:inset 0 0 0.2em rgb(0, 102, 17);
 }
 #check1:checked + h2,#check1:checked +h2:after{
-  background: #02e602;
-  box-shadow:inset 0 0 1em rgb(0, 102, 17);
+  background-image: url("https://cdn.pixabay.com/photo/2015/02/07/07/38/structure-626876_1280.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 #check2:checked + .validated,#check2:checked +h2:after{
-  background: #02e602;
-  box-shadow:inset 0 0 1em rgb(0, 102, 17);
+  background-image: url("https://cdn.pixabay.com/photo/2015/02/07/07/38/structure-626876_1280.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 #check3:checked + h2,#check3:checked +h2:after{
-  background: #02e602;
-  box-shadow:inset 0 0 1em rgb(0, 102, 17);
+  background-image: url("https://cdn.pixabay.com/photo/2015/02/07/07/38/structure-626876_1280.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 #check4:checked + h2,#check4:checked +h2:after{
-  background: #02e602;
-  box-shadow:inset 0 0 1em rgb(0, 102, 17);
+  background-image: url("https://cdn.pixabay.com/photo/2015/02/07/07/38/structure-626876_1280.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 #check5:checked + h2,#check5:checked +h2:after{
-  background: #02e602;
-  box-shadow:inset 0 0 1em rgb(0, 102, 17);
+  background-image: url("https://cdn.pixabay.com/photo/2015/02/07/07/38/structure-626876_1280.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .contributors{
     border-bottom: 2.5px solid;
