@@ -103,7 +103,7 @@ body {
   text-align: center;
   font-size: 28px;
   font-style: oblique;
-  background-color: rgb(190, 191, 192);
+  background-image:url('https://image.freepik.com/photos-gratuite/texture-blanche-papier-froisse-pour-arriere-plan_1373-159.jpg');
   padding:15px;
   margin-bottom: 80px;
   opacity:0.8;
@@ -213,8 +213,8 @@ section article div.inner p {
   margin: 0;
   margin-bottom: 20px;
   font-size: 14px;
-  background: #fff;
-  color: #656565;
+  background-image:url('https://image.freepik.com/photos-gratuite/texture-blanche-papier-froisse-pour-arriere-plan_1373-159.jpg');
+  color:black;
   border-radius: 0 0 6px 6px;
   box-shadow: 0 0 0.5em black;
 }
@@ -257,8 +257,8 @@ section  article div.inner h2:after {
 .checkLabel:hover{
   cursor:pointer;
   transition:  750ms;
-  background: #02e602;
-  box-shadow:inset 0 0 0.2em rgb(0, 102, 17);
+  background-image:url('https://cdn.pixabay.com/photo/2019/10/19/03/20/fire-4560480_1280.jpg');
+  box-shadow: inset 0 0 0.8em rgba(216, 2, 2, 0.911);
 }
 #check1:checked + h2,#check1:checked +h2:after{
   background-image: url("https://cdn.pixabay.com/photo/2015/02/07/07/38/structure-626876_1280.jpg");
