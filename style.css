@@ -97,7 +97,7 @@ html, body {
   font-family: Helvetica, sans-serif;
 }
 body {
-  background: #CFD8DC;
+  background-image:url('https://images.unsplash.com/photo-1550684376-a58446a2c493?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80');
 }
 .intro{
   text-align: center;
@@ -108,7 +108,7 @@ body {
   margin-bottom: 80px;
   opacity:0.8;
   border-radius: 12px;
-  box-shadow: 0 0.2em 0.5em rgb(34, 34, 34);
+  box-shadow:inset 0 0 1em rgb(54, 54, 54), 0 0.2em 0.5em rgb(34, 34, 34);
   text-shadow: 1px 1px 2px rgb(95, 91, 91); 
 }
 section {
@@ -199,6 +199,9 @@ section article div.inner h2 {
   letter-spacing: -1px;
   border-radius: 6px 6px 0 0;
   position: relative;
+  background-image:url('https://image.shutterstock.com/image-photo/image-250nw-1031751409.jpg');
+  box-shadow:inset 0 0 1em rgb(54, 54, 54);
+  text-shadow: 1px 1px 2px rgb(65, 64, 64); 
 }
 section article div.inner h2:after {
   content: '';
@@ -216,7 +219,7 @@ section article div.inner p {
   background-image:url('https://image.freepik.com/photos-gratuite/texture-blanche-papier-froisse-pour-arriere-plan_1373-159.jpg');
   color:black;
   border-radius: 0 0 6px 6px;
-  box-shadow: 0 0 0.5em black;
+  box-shadow:inset 0 0 1em rgb(54, 54, 54), 0 0 0.5em black;
 }
 section article:nth-child(2n+2) div.inner {
   float: right;
@@ -224,10 +227,7 @@ section article:nth-child(2n+2) div.inner {
 section article:nth-child(2n+2) div.inner h2::after {
   left: -5px;
 }
-section  article div.inner h2 {
-  background: #929191;
-  box-shadow:inset 0 0 1em rgb(54, 54, 54);
-}
+
 section  article div.inner h2:after {
   background:  #929191;
 }
@@ -257,7 +257,7 @@ section  article div.inner h2:after {
 .checkLabel:hover{
   cursor:pointer;
   transition:  750ms;
-  background-image:url('https://cdn.pixabay.com/photo/2019/10/19/03/20/fire-4560480_1280.jpg');
+  background-image:url('https://images.freeimages.com/images/large-previews/626/fire-5-1377284.jpg');
   box-shadow: inset 0 0 0.8em rgba(216, 2, 2, 0.911);
 }
 #check1:checked + h2,#check1:checked +h2:after{
@@ -284,8 +284,18 @@ section  article div.inner h2:after {
     border-bottom: 2.5px solid;
     border-color: linear-gradient(grey, Black);
 }
-.responsiveLabel {display:none;}
 
+.outro{
+  text-align: center;
+  font-size: 26px;
+  font-style: oblique;
+  background-image:url('https://image.freepik.com/photos-gratuite/texture-blanche-papier-froisse-pour-arriere-plan_1373-159.jpg');
+  padding:15px;
+  margin-bottom: 80px;
+  border-radius: 12px;
+  box-shadow:inset 0 0 1em rgb(252, 247, 0), 0 0.2em 0.5em rgb(236, 232, 0);
+  text-shadow: 1px 1px 2px rgb(255, 255, 255); 
+}
 
 footer{
 	position: relative;
@@ -469,5 +479,8 @@ footer{
   }
   .intro{
     font-size:20px;
+  }
+  .outro{
+      font-size:20px;
   }
 }
