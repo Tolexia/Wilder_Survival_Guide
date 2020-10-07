@@ -439,7 +439,8 @@ footer{
 	height: 35px;
 	cursor: pointer;
 	background-color:  #92999f;
-	border-radius: 2px;
+  border-radius: 2px;
+  background-image:url('https://www.flaticon.com/svg/static/icons/svg/174/174857.svg');
  
 	font-size: 20px;
 	color: #ffffff;
