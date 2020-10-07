@@ -104,8 +104,10 @@ p.intro{
   font-size: 28px;
   font-style: oblique;
   background-image:url('https://image.freepik.com/photos-gratuite/texture-blanche-papier-froisse-pour-arriere-plan_1373-159.jpg');
-  padding:15px;
+  padding:30px;
   margin-bottom: 80px;
+  margin-left:-15px;
+  margin-right:-15px;
   border-radius: 12px;
   box-shadow:inset 0 0 1em rgb(54, 54, 54), 0 0.2em 0.5em rgb(34, 34, 34);
   text-shadow: 1px 1px 2px rgb(95, 91, 91); 
@@ -251,7 +253,7 @@ section  article div.inner h2:after {
   padding:4px;
   margin-top:20px;
   background: #dbdbdb;
-  box-shadow: inset 0 0 0.5em rgba(255,255,255,0.2);
+  box-shadow: inset 0 0 0.5em rgba(54, 54, 54, 0.753);
 }
 .checkLabel:hover{
   cursor:pointer;
@@ -299,8 +301,10 @@ section  article div.inner h2:after {
   font-size: 26px;
   font-style: oblique;
   background-image:url('https://images.unsplash.com/photo-1525291713758-6c2990e200ff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2089&q=80');
-  padding:15px;
-  margin-bottom: 80px;
+  padding:40px;
+  margin-bottom: 0;
+  margin-left:-40px;
+  margin-right:-40px;
   border-radius: 12px;
   box-shadow:inset 0 0 1em rgb(252, 247, 0), 0 0.2em 0.5em rgb(236, 232, 0);
   text-shadow: 1px 1px 2px rgb(255, 255, 255); 
@@ -319,7 +323,6 @@ footer{
 	font: bold 16px sans-serif;
  
 	padding: 55px 50px;
-	margin-top: 80px;
 }
  
 .footer-distributed .footer-left,
@@ -488,6 +491,9 @@ footer{
   }
   .intro{
     font-size:20px;
+  }
+  .checkLabel{
+  background-image:url('https://images.freeimages.com/images/large-previews/626/fire-5-1377284.jpg');
   }
   .outro{
       font-size:20px;
