@@ -21,12 +21,12 @@
   font-size: 8vw;
   font-weight: 1000;
   margin: 0;
-  animation: blur 2s ease-out infinite;
+  animation: blur 5s ease-in infinite alternate;
   text-shadow: 0px 0px 5px #fff, 0px 0px 5px #fff;
 }
   @keyframes blur {
     from {
-      text-shadow:0px 0px 10px #fff,
+      text-shadow:0px 0px 10px rgb(247, 242, 242),
         0px 0px 10px #fff,
         0px 0px 25px #fff,
         0px 0px 25px #fff,
@@ -36,14 +36,14 @@
         0px 0px 25px #fff,
         0px 0px 50px #fff,
         0px 0px 50px #fff,
-        0px 0px 50px #7B96B8,
-        0px 0px 150px #7B96B8,
-        0px 10px 100px #7B96B8,
-        0px 10px 100px #7B96B8,
-        0px 10px 100px #7B96B8,
-        0px 10px 100px #7B96B8,
-        0px -10px 100px #7B96B8,
-        0px -10px 100px #7B96B8;
+        0px 0px 50px #ff0404,
+        0px 0px 150px  #ff0404,
+        0px 10px 100px  #ff0404,
+        0px 10px 100px  #ff0404,
+        0px 10px 100px  #ff0404,
+        0px 10px 100px  #ff0404,
+        0px -10px 100px  #ff0404,
+        0px -10px 100px  #ff0404;
     }
 }
 
@@ -103,7 +103,6 @@ p.intro{
   text-align: center;
   font-size: 25px;
   font-family: 'Roboto Mono', monospace;
-  /*font-style: oblique;*/
   background-image:url('https://image.freepik.com/photos-gratuite/texture-blanche-papier-froisse-pour-arriere-plan_1373-159.jpg');
   padding:30px;
   margin-bottom: 80px;
@@ -113,9 +112,10 @@ p.intro{
   box-shadow:inset 0 0 1em rgb(54, 54, 54), 0 0.2em 0.5em rgb(34, 34, 34);
   text-shadow: 1px 1px 2px rgb(95, 91, 91);
 }
+
 section {
-  width: 80%;
-  margin: 20px auto;
+  width: 90%;
+  margin:auto;
   position: relative;
 }
 section:before {
@@ -143,7 +143,7 @@ section article:after {
 section article div.inner {
   width: 40%;
   float: left;
-  margin: 5px 0 0 0;
+  margin: 10px 0 0 0;
   border-radius: 6px;
 }
 section article span {
@@ -202,6 +202,9 @@ section article div.inner h2 {
   border-radius: 6px 6px 0 0;
   position: relative;
   background-image:url('https://image.shutterstock.com/image-photo/image-250nw-1031751409.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   box-shadow:inset 0 0 1em rgb(54, 54, 54);
   text-shadow: 1px 1px 2px rgb(65, 64, 64);
   font-family: 'Roboto Mono', monospace;
@@ -221,11 +224,14 @@ section article div.inner p {
   margin: 0;
   margin-bottom: 20px;
   font-family: 'Roboto Mono', monospace;
-  font-size: 12px;
+  font-size: 16px;
   background-image:url('https://image.freepik.com/photos-gratuite/texture-blanche-papier-froisse-pour-arriere-plan_1373-159.jpg');
   color:black;
   border-radius: 0 0 6px 6px;
   box-shadow:inset 0 0 1em rgb(54, 54, 54), 0 0 0.5em black;
+}
+br {
+  margin-bottom: 1rem;
 }
 section article:nth-child(2n+2) div.inner {
   float: right;
@@ -244,12 +250,16 @@ section  article div.inner h2:after {
   text-align: center;
   border:1px solid black;
   border-radius: 12px;
-  padding:4px;
+  padding:.5rem;
   margin:4px;
   text-decoration:none;
   background-color: #e9e9e9;
   box-shadow:inset 0 0 0.3em rgb(35, 36, 36),0 0 0.3em black;
   color: black;
+}
+.button:hover{
+  text-shadow: 1px 1px 2px rgb(65, 64, 64);
+  filter: drop-shadow(3px 3px 3px black);
 }
 .checkable{
   display:none;
@@ -258,7 +268,7 @@ section  article div.inner h2:after {
 .checkLabel{
   border:1px solid black;
   border-radius: 12px;
-  padding:4px;
+  padding:.5rem;
   margin-top:20px;
   background: #dbdbdb;
   box-shadow: inset 0 0 0.5em rgba(54, 54, 54, 0.753);
@@ -307,10 +317,11 @@ section  article div.inner h2:after {
 
 .outro{
   text-align: center;
-  font-size: 19px;
+  font-size: 24px;
   /*font-style: oblique;*/
   font-family: 'Roboto Mono', monospace;
   background-image:url('https://images.unsplash.com/photo-1525291713758-6c2990e200ff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2089&q=80');
+  filter:brightness(0.9);
   padding:40px;
   margin-bottom: 0;
   margin-left:-40px;
@@ -318,7 +329,7 @@ section  article div.inner h2:after {
   border-radius: 12px;
   color:white;
   box-shadow:inset 0 0 1em rgb(252, 247, 0), 0 0.2em 0.5em rgb(236, 232, 0);
-  text-shadow: 2px 2px 2px rgb(104, 102, 102);
+  text-shadow: 3px 3px 2px rgb(104, 102, 102);
 }
 
 footer{
@@ -456,11 +467,11 @@ footer{
 	color: #ffffff;
 	text-align: center;
 	line-height: 35px;
-
+  border-radius:50%;
+  box-shadow: 1px 1px 2px black;
 	margin-right: 28px;
 	margin-bottom: 5px;
 }
-
 
 .footer-distributed .footer-names span{
 	display: flex;
