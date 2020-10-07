@@ -1,6 +1,9 @@
-.button {
+/* .button {
   margin: 3em 0;
 }
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
 a,a:visited,a:hover,a:active{
   -webkit-backface-visibility:hidden;
           backface-visibility:hidden;
@@ -8,13 +11,65 @@ a,a:visited,a:hover,a:active{
   transition:0.5s color ease;
 	text-decoration:none;
 	color:#81b3d2;
-	font-size:1.2em;
+	font-size:1.5em;
+  display: inline-block;
+  line-height: 1.5em;
+  padding-right: 0.5em;
 }
 a:hover{
 	color:#d73444;
 }
-
-
+a.before:before,a.after:after{
+  content: "";
+  transition:0.5s all ease;
+  -webkit-backface-visibility:hidden;
+          backface-visibility:hidden;
+  position:absolute;
+}
+a.before:before{
+  top:-0.18em;
+}
+a.after:after{
+  bottom:-0.18em;
+}
+a.before:before,a.after:after{
+  height:5px;
+  height:0.28rem;
+  width:0;
+  background:#d73444;
+}
+a.first:after{
+  left:0;
+}
+a.second:after{
+  right:0;
+}
+a.third:after,a.sixth:before,a.sixth:after{
+  left:50%;
+  -webkit-transform:translateX(-50%);
+          transform:translateX(-50%);
+}
+a.fourth:before,a.fourth:after{
+  left:0;
+}
+a.fifth:before,a.fifth:after{
+  right:0;
+}
+a.seventh:before{
+  right:0;
+}
+a.seventh:after{
+  left:0;
+}
+a.eigth:before{
+  left:0;
+}
+a.eigth:after{
+  right:0;
+}
+a.before:hover:before,a.after:hover:after{
+  width:100%;
+} */
 
 .header {
   text-align: center;
@@ -125,7 +180,7 @@ p.intro{
   margin-bottom: 80px;
   border-radius: 12px;
   box-shadow:inset 0 0 1em rgb(54, 54, 54), 0 0.2em 0.5em rgb(34, 34, 34);
-  text-shadow: 1px 1px 2px rgb(95, 91, 91); 
+  text-shadow: 1px 1px 2px rgb(95, 91, 91);
 }
 section {
   width: 80%;
@@ -217,7 +272,7 @@ section article div.inner h2 {
   position: relative;
   background-image:url('https://image.shutterstock.com/image-photo/image-250nw-1031751409.jpg');
   box-shadow:inset 0 0 1em rgb(54, 54, 54);
-  text-shadow: 1px 1px 2px rgb(65, 64, 64); 
+  text-shadow: 1px 1px 2px rgb(65, 64, 64);
 }
 section article div.inner h2:after {
   content: '';
@@ -320,7 +375,7 @@ section  article div.inner h2:after {
   margin-bottom: 80px;
   border-radius: 12px;
   box-shadow:inset 0 0 1em rgb(252, 247, 0), 0 0.2em 0.5em rgb(236, 232, 0);
-  text-shadow: 1px 1px 2px rgb(255, 255, 255); 
+  text-shadow: 1px 1px 2px rgb(255, 255, 255);
 }
 
 footer{
