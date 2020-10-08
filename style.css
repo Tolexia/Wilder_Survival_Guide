@@ -1,8 +1,8 @@
 .header {
   text-align: center;
-  background-image: url("https://images.unsplash.com/photo-1541480110211-586977e40589?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1070&q=80");
-  background-repeat: no-repeat;
+  background-image: url("https://images.unsplash.com/photo-1541480110211-586977e40589?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1070&q=80%22");
   background-size: cover;
+border-bottom: ;
   color: #212121;
   font-family: 'Black Ops One', cursive;
   display: flex;
@@ -96,7 +96,9 @@ html, body {
   font-family: Helvetica, sans-serif;
 }
 body {
-  background-image:url('https://images.unsplash.com/photo-1550684376-a58446a2c493?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80');
+  background: rgb(225,54,2);
+  background: linear-gradient(0deg, rgba(225,54,2,1) 7%, rgba(255,121,4,1) 11%, rgba(251,251,251,0) 20%, rgba(62,62,60,0) 43%, rgba(38,38,36,0.8914916308320203) 70%, rgba(38,38,36,1) 84%), url("https://zupimages.net/up/20/41/xxkn.jpg");
+  background-size: cover;
 }
 p.intro{
   text-align: center;
@@ -264,6 +266,15 @@ section  article div.inner h2:after {
   filter: drop-shadow(3px 3px 3px black);
 
 }
+.convention {
+  color: white;
+  text-shadow: 1px 1px 2px rgb(65, 64, 64);
+  filter: drop-shadow(3px 3px 3px yellow);
+
+}
+.convention:hover {
+}
+
 .checkable{
   display:none;
 }
@@ -313,32 +324,31 @@ section  article div.inner h2:after {
   background-size: cover;
   background-repeat: no-repeat;
 }
-.contributors{
-    border-bottom: 2.5px solid;
-    border-color: linear-gradient(grey, Black);
-}
 
 .outro{
   text-align: center;
+  text-shadow: 3px 3px 2px black;
   font-size: 24px;
   /*font-style: oblique;*/
   font-family: 'Roboto Mono', monospace;
-  background-image:url('https://images.unsplash.com/photo-1525291713758-6c2990e200ff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2089&q=80');
-  filter:brightness(0.9);
+  filter:brightness(1);
   padding:40px;
-  margin-bottom: 0;
-  margin-left:-40px;
-  margin-right:-40px;
-  border-radius: 12px;
+  margin-bottom: -19px;
+  margin-left:-85px;
+  margin-right:-85px;
   color:white;
-  box-shadow:inset 0 0 1em rgb(252, 247, 0), 0 0.2em 0.5em rgb(236, 232, 0);
-  text-shadow: 3px 3px 2px rgb(104, 102, 102);
+  background-image: url("https://zupimages.net/up/20/41/99zi.jpg");
+  background-size: cover;
+  background-position: bottom;
 }
 
 
 footer{
 	position: relative;
   bottom: 0;
+  background-color: black;
+  background-size: cover;
+  background-position: bottom;
 }
 .footer-distributed{
 	background-color: #292c2f;
@@ -479,7 +489,10 @@ footer{
 }
  
 .footer-distributed .footer-icons a{
-	display: inline-block;
+	display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 	width: 35px;
 	height: 35px;
 	cursor: pointer;
@@ -488,7 +501,6 @@ footer{
   background-image:url('https://www.flaticon.com/svg/static/icons/svg/185/185964.svg');
 	font-size: 20px;
 	color: #ffffff;
-	text-align: center;
 	line-height: 35px;
   border-radius:50%;
   box-shadow: 1px 1px 2px black;
@@ -496,9 +508,10 @@ footer{
 	margin-bottom: 5px;
 }
 
-
 .footer-distributed .footer-names span{
 	display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: row;
 	color:  #ffffff;
 	font-size: 14px;
@@ -569,6 +582,7 @@ footer{
   body{
     display:flex;
     flex-direction: column;
+    background-size: 100%;
   }
   section article div.inner.inner{
    float:center;
