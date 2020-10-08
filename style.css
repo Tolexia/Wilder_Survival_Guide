@@ -506,37 +506,7 @@ footer{
 		font-size: auto;
 	}
 }
-@media screen and (min-width:420px) and (max-width:1024px)
-{
-  .footer-names{
-    display:flex;
-    justify-content: center;
-  }
-  .footer-icons{
-    display:flex;
-    justify-content:center;
-    flex-wrap: nowrap;
-  }
-
-  .footer-distributed .footer-icons a
-  {
-    margin-left:8px;
-  }
-  .button {
-    width:90%;
-  }
-  section article div.inner.inner{
-    float:center;
-    width: 100%;
-   }
-   section article span{
-    position:relative;
-    float:center;
-    margin-bottom:50px;
-  }
-}
-
-@media screen and (max-width:420px)  {
+@media screen and (max-width:414px)  {
   body{
     display:flex;
     flex-direction: column;
@@ -553,26 +523,11 @@ footer{
   .intro{
     font-size:19px;
   }
-  .button {
-    width:90%;
-  }
   .checkLabel{
-    text-shadow: 1px 1px 2px rgb(65, 64, 64);
-    filter: drop-shadow(3px 3px 3px black);
+  background-image:url('https://images.freeimages.com/images/large-previews/626/fire-5-1377284.jpg');
   }
   .outro{
       font-size:19px;
       font-family: 'Roboto Mono', monospace;
-  }
-  .footer-names{
-    display:flex;
-    justify-content: center;
-  }
-}
-@media screen and (max-width:364px)
-{
-  .footer-distributed .footer-icons a
-  {
-    margin-right:26px;
   }
 }
