@@ -1,16 +1,15 @@
-
 .header {
   text-align: center;
-  background-image: url("https://images.unsplash.com/photo-1541480110211-586977e40589?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1070&q=80");
-  background-repeat: no-repeat;
+  background-image: url("https://images.unsplash.com/photo-1541480110211-586977e40589?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1070&q=80%22");
   background-size: cover;
+border-bottom: ;
   color: #212121;
   font-family: 'Black Ops One', cursive;
   display: flex;
   flex-direction: column;
   margin-bottom: 10%;
 }
-
+ 
 .the {
   font-size: 5vw;
   font-weight: 1000;
@@ -46,12 +45,12 @@
         0px -10px 100px  #ff0404;
     }
 }
-
+ 
 .firstTitle {
   font-size: 5vw;
   font-weight: 1000;
 }
-
+ 
 .secondTitle {
   font-size: 4vw;
   width: 90%;
@@ -60,11 +59,11 @@
   border: 1vw solid red;
   margin: 0 auto;
 }
-
+ 
 .insideBorder {
   margin: 0 auto;
 }
-
+ 
 .contributors {
   padding-top: 50px;
 }
@@ -80,24 +79,26 @@
   font-size: 2vw;
   text-shadow: red 1px 0 5px;
 }
-
+ 
 .axel {
   padding-left: 1.5vw;
   text-shadow: red 1px 0 5px;
 }
-
+ 
 .thomas {
   padding-right: 1.5vw;
   text-shadow: red 1px 0 5px;
 }
-
+ 
 html, body {
   margin: 0;
   padding: 0;
   font-family: Helvetica, sans-serif;
 }
 body {
-  background-image:url('https://images.unsplash.com/photo-1550684376-a58446a2c493?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80');
+  background: rgb(225,54,2);
+  background: linear-gradient(0deg, rgba(225,54,2,1) 7%, rgba(255,121,4,1) 11%, rgba(251,251,251,0) 20%, rgba(62,62,60,0) 43%, rgba(38,38,36,0.8914916308320203) 70%, rgba(38,38,36,1) 84%), url("https://zupimages.net/up/20/41/xxkn.jpg");
+  background-size: cover;
 }
 p.intro{
   text-align: center;
@@ -191,7 +192,7 @@ section article span {
   background-size: cover;
   box-shadow:inset 0 0 1em rgb(54, 54, 54), 0 0 0.5em rgb(34, 34, 34);
 }
-
+ 
 section article div.inner h2 {
   padding: 15px;
   margin: 0;
@@ -230,9 +231,11 @@ section article div.inner p {
   border-radius: 0 0 6px 6px;
   box-shadow:inset 0 0 1em rgb(54, 54, 54), 0 0 0.5em black;
 }
+
 br {
   margin-bottom: 1rem;
 }
+
 section article:nth-child(2n+2) div.inner {
   float: right;
 }
@@ -240,10 +243,11 @@ section article:nth-child(2n+2) div.inner h2::after {
   left: -5px;
 }
 
+ 
 section  article div.inner h2:after {
   background:  #929191;
 }
-
+ 
 
 .button{
   display:inline-block;
@@ -260,6 +264,7 @@ section  article div.inner h2:after {
 .button:hover{
   text-shadow: 1px 1px 2px rgb(65, 64, 64);
   filter: drop-shadow(3px 3px 3px black);
+
 }
 .convention {
   color: white;
@@ -273,7 +278,7 @@ section  article div.inner h2:after {
 .checkable{
   display:none;
 }
-
+ 
 .checkLabel{
   border:1px solid black;
   border-radius: 12px;
@@ -319,31 +324,31 @@ section  article div.inner h2:after {
   background-size: cover;
   background-repeat: no-repeat;
 }
-.contributors{
-    border-bottom: 2.5px solid;
-    border-color: linear-gradient(grey, Black);
-}
 
 .outro{
   text-align: center;
+  text-shadow: 3px 3px 2px black;
   font-size: 24px;
   /*font-style: oblique;*/
   font-family: 'Roboto Mono', monospace;
-  background-image:url('https://images.unsplash.com/photo-1525291713758-6c2990e200ff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2089&q=80');
-  filter:brightness(0.9);
+  filter:brightness(1);
   padding:40px;
-  margin-bottom: 0;
-  margin-left:-40px;
-  margin-right:-40px;
-  border-radius: 12px;
+  margin-bottom: -19px;
+  margin-left:-85px;
+  margin-right:-85px;
   color:white;
-  box-shadow:inset 0 0 1em rgb(252, 247, 0), 0 0.2em 0.5em rgb(236, 232, 0);
-  text-shadow: 3px 3px 2px rgb(104, 102, 102);
+  background-image: url("https://zupimages.net/up/20/41/99zi.jpg");
+  background-size: cover;
+  background-position: bottom;
 }
+
 
 footer{
 	position: relative;
   bottom: 0;
+  background-color: black;
+  background-size: cover;
+  background-position: bottom;
 }
 .footer-distributed{
 	background-color: #292c2f;
@@ -353,8 +358,10 @@ footer{
 	text-align: left;
 	font: bold 16px sans-serif;
 
+ 
 	padding: 55px 50px;
 }
+ 
 
 .footer-distributed .footer-left,
 .footer-distributed .footer-center,
@@ -363,9 +370,11 @@ footer{
 	vertical-align: top;
 }
 
+ 
 .footer-distributed .footer-left{
 	width: 40%;
 }
+ 
 
 .footer-distributed h3{
 	color:  #ffffff;
@@ -373,16 +382,20 @@ footer{
 	margin: 0;
 }
 
+ 
 .footer-distributed h3 span{
 	color:  #5383d3;
 }
-
+ 
+ 
 
 .footer-distributed .footer-links{
 	color:  #ffffff;
 	margin: 20px 0 12px;
 	padding: 0;
 }
+
+ 
 
 .footer-distributed .footer-links a{
 	display:inline-block;
@@ -391,6 +404,7 @@ footer{
 	color:  inherit;
 }
 
+
 .footer-distributed .footer-company-name{
 	color:  #8f9296;
 	font-size: 14px;
@@ -398,11 +412,12 @@ footer{
 	margin: 0;
 }
 
-
+ 
+ 
 .footer-distributed .footer-center{
 	width: 35%;
 }
-
+ 
 .footer-distributed .footer-center i{
 	background-color:  #33383b;
 	color: #ffffff;
@@ -416,10 +431,12 @@ footer{
 	vertical-align: middle;
 }
 
+
 .footer-distributed .footer-center i.fa-envelope{
 	font-size: 17px;
 	line-height: 38px;
 }
+ 
 
 .footer-distributed .footer-center p{
 	display: inline-block;
@@ -428,6 +445,7 @@ footer{
 	margin:0;
 }
 
+
 .footer-distributed .footer-center p span{
 	display:block;
 	font-weight: normal;
@@ -435,14 +453,17 @@ footer{
 	line-height:2;
 }
 
+
 .footer-distributed .footer-center p a{
 	color:  #5383d3;
 	text-decoration: none;;
 }
 
+ 
 .footer-distributed .footer-right{
 	width: 20%;
 }
+ 
 
 .footer-distributed .footer-about{
 	line-height: 20px;
@@ -452,6 +473,7 @@ footer{
 	margin: 0;
 }
 
+
 .footer-distributed .footer-about span{
 	display: block;
 	color:  #ffffff;
@@ -460,10 +482,11 @@ footer{
 	margin-bottom: 20px;
 }
 
+ 
 .footer-distributed .footer-icons{
 	margin-top: 25px;
 }
-
+ 
 .footer-distributed .footer-icons a{
 	display: flex;
   flex-direction: row;
@@ -474,7 +497,7 @@ footer{
 	cursor: pointer;
 	background-color:  #ffffff;
   border-radius: 2px;
-  background-image:url('https://www.flaticon.com/svg/static/icons/svg/174/174857.svg');
+  background-image:url('https://www.flaticon.com/svg/static/icons/svg/185/185964.svg');
 	font-size: 20px;
 	color: #ffffff;
 	line-height: 35px;
@@ -483,12 +506,8 @@ footer{
 	margin-right: 28px;
 	margin-bottom: 5px;
 }
-.footerName {
-  display:flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.footer-distributed .footerNames div{
+
+.footer-distributed .footer-names span{
 	display: flex;
   justify-content: center;
   align-items: center;
@@ -498,12 +517,14 @@ footer{
 	font-weight: bold;
 }
 
+ 
 @media (max-width: 880px) {
-
+ 
 	.footer-distributed{
 		font: bold 14px sans-serif;
-
+ 
 	}
+ 
 
 	.footer-distributed .footer-left,
 	.footer-distributed .footer-center,
@@ -514,19 +535,53 @@ footer{
 		text-align: center;
 	}
 
+ 
 	.footer-distributed .footer-center i{
 		margin-left: 0;
 	}
-
+ 
 	.main {
 		line-height: normal;
 		font-size: auto;
 	}
 }
-@media screen and (max-width:414px)  {
+@media screen and (min-width:420px) and (max-width:1024px)
+{
+  .footer-names{
+    display:flex;
+    justify-content: center;
+  }
+  .footer-icons{
+    display:flex;
+    justify-content:center;
+    flex-wrap: nowrap;
+  }
+
+
+  .footer-distributed .footer-icons a
+  {
+    margin-left:8px;
+  }
+  .button {
+    width:90%;
+  }
+  section article div.inner.inner{
+    float:center;
+    width: 100%;
+   }
+   section article span{
+    position:relative;
+    float:center;
+    margin-bottom:50px;
+  }
+}
+
+
+@media screen and (max-width:420px)  {
   body{
     display:flex;
     flex-direction: column;
+    background-size: 100%;
   }
   section article div.inner.inner{
    float:center;
@@ -540,11 +595,27 @@ footer{
   .intro{
     font-size:19px;
   }
+  .button {
+    width:90%;
+  }
   .checkLabel{
-  background-image:url('https://images.freeimages.com/images/large-previews/626/fire-5-1377284.jpg');
+    text-shadow: 1px 1px 2px rgb(65, 64, 64);
+    filter: drop-shadow(3px 3px 3px black);
   }
   .outro{
       font-size:19px;
       font-family: 'Roboto Mono', monospace;
   }
+  .footer-names{
+    display:flex;
+    justify-content: center;
+  }
 }
+@media screen and (max-width:364px)
+{
+  .footer-distributed .footer-icons a
+  {
+    margin-right:26px;
+  }
+}
+
