@@ -261,6 +261,15 @@ section  article div.inner h2:after {
   text-shadow: 1px 1px 2px rgb(65, 64, 64);
   filter: drop-shadow(3px 3px 3px black);
 }
+.convention {
+  color: white;
+  text-shadow: 1px 1px 2px rgb(65, 64, 64);
+  filter: drop-shadow(3px 3px 3px yellow);
+
+}
+.convention:hover {
+}
+
 .checkable{
   display:none;
 }
@@ -456,7 +465,10 @@ footer{
 }
 
 .footer-distributed .footer-icons a{
-	display: inline-block;
+	display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 	width: 35px;
 	height: 35px;
 	cursor: pointer;
@@ -465,16 +477,21 @@ footer{
   background-image:url('https://www.flaticon.com/svg/static/icons/svg/174/174857.svg');
 	font-size: 20px;
 	color: #ffffff;
-	text-align: center;
 	line-height: 35px;
   border-radius:50%;
   box-shadow: 1px 1px 2px black;
 	margin-right: 28px;
 	margin-bottom: 5px;
 }
-
-.footer-distributed .footer-names span{
+.footerName {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-distributed .footerNames div{
 	display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: row;
 	color:  #ffffff;
 	font-size: 14px;
