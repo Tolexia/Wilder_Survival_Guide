@@ -209,16 +209,7 @@ section article div.inner h2 {
   text-shadow: 1px 1px 2px rgb(65, 64, 64);
   font-family: 'Roboto Mono', monospace;
 }
-section article div.inner h2:after {
-  content: '';
-  position: absolute;
-  top: 20px;
-  right: -5px;
-  width: 10px;
-  height: 10px;
-  font-family: 'Roboto Mono', monospace;
 
-}
 section article div.inner p {
   padding: 15px;
   margin: 0;
@@ -532,10 +523,6 @@ footer{
 	}
 
  
-	.footer-distributed .footer-center i{
-		margin-left: 0;
-	}
- 
 	.main {
 		line-height: normal;
 		font-size: auto;
@@ -556,7 +543,7 @@ footer{
 
   .footer-distributed .footer-icons a
   {
-    margin-left:8px;
+    margin-left:15px;
   }
   .button {
     width:90%;
