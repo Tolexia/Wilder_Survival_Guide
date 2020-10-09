@@ -277,31 +277,31 @@ section article:nth-child(2n+2) div.inner h2::after {
   background-image:url('https://images.freeimages.com/images/large-previews/626/fire-5-1377284.jpg');
   box-shadow: inset 0 0 0.8em rgba(216, 2, 2, 0.911);
 }
-#check1:checked + h2,#check1:checked +h2:after{
+#check1:checked + h2{
   background-image: url("https://cdn.pixabay.com/photo/2015/02/07/07/38/structure-626876_1280.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
-#check2:checked + .validated,#check2:checked +h2:after{
+#check2:checked + h2{
   background-image: url("https://cdn.pixabay.com/photo/2015/02/07/07/38/structure-626876_1280.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
-#check3:checked + h2,#check3:checked +h2:after{
+#check3:checked + h2{
   background-image: url("https://cdn.pixabay.com/photo/2015/02/07/07/38/structure-626876_1280.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
-#check4:checked + h2,#check4:checked +h2:after{
+#check4:checked + h2{
   background-image: url("https://cdn.pixabay.com/photo/2015/02/07/07/38/structure-626876_1280.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
-#check5:checked + h2,#check5:checked +h2:after{
+#check5:checked + h2{
   background-image: url("https://cdn.pixabay.com/photo/2015/02/07/07/38/structure-626876_1280.jpg");
   background-position: center;
   background-size: cover;
