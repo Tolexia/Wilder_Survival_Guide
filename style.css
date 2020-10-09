@@ -2,7 +2,6 @@
   text-align: center;
   background-image: url("https://images.unsplash.com/photo-1541480110211-586977e40589?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1070&q=80%22");
   background-size: cover;
-border-bottom: ;
   color: #212121;
   font-family: 'Black Ops One', cursive;
   display: flex;
@@ -210,16 +209,7 @@ section article div.inner h2 {
   text-shadow: 1px 1px 2px rgb(65, 64, 64);
   font-family: 'Roboto Mono', monospace;
 }
-section article div.inner h2:after {
-  content: '';
-  position: absolute;
-  top: 20px;
-  right: -5px;
-  width: 10px;
-  height: 10px;
-  font-family: 'Roboto Mono', monospace;
 
-}
 section article div.inner p {
   padding: 15px;
   margin: 0;
@@ -242,12 +232,6 @@ section article:nth-child(2n+2) div.inner {
 section article:nth-child(2n+2) div.inner h2::after {
   left: -5px;
 }
-
-
-section  article div.inner h2:after {
-  background:  #929191;
-}
-
 
 .button{
   display:inline-block;
@@ -272,8 +256,6 @@ section  article div.inner h2:after {
   filter: drop-shadow(3px 3px 3px yellow);
 
 }
-.convention:hover {
-}
 
 .checkable{
   display:none;
@@ -291,62 +273,46 @@ section  article div.inner h2:after {
 .checkLabel:hover{
   cursor:pointer;
   transition:  750ms;
-  background-image:url('https://images.freeimages.com/images/large-previews/626/fire-5-1377284.jpg');
+  background-image:url('img/ember16.jpg');
   box-shadow: inset 0 0 0.8em rgba(216, 2, 2, 0.911);
 }
-#check1:checked + h2,#check1:checked +h2:after{
-  background-image: url("https://cdn.pixabay.com/photo/2015/02/07/07/38/structure-626876_1280.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-#check2:checked + .validated,#check2:checked +h2:after{
-  background-image: url("https://cdn.pixabay.com/photo/2015/02/07/07/38/structure-626876_1280.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-#check3:checked + h2,#check3:checked +h2:after{
-  background-image: url("https://cdn.pixabay.com/photo/2015/02/07/07/38/structure-626876_1280.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-#check4:checked + h2,#check4:checked +h2:after{
-  background-image: url("https://cdn.pixabay.com/photo/2015/02/07/07/38/structure-626876_1280.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-#check5:checked + h2,#check5:checked +h2:after{
-  background-image: url("https://cdn.pixabay.com/photo/2015/02/07/07/38/structure-626876_1280.jpg");
+.checkable:checked + h2{
+  background-image: url("img/structure-626876_1280.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
+.conclusion {
+  background-image: url("https://zupimages.net/up/20/41/99zi.jpg");
+  filter:brightness(1);
+  background-size: cover;
+  background-position: bottom;
+  box-shadow:inset 3px 3px 0.3em rgba(255,121,4,1),3px 3px 0.3em  rgba(255,121,4,1);
+}
 .outro{
   text-align: center;
   text-shadow: 3px 3px 2px black;
   font-size: 24px;
   /*font-style: oblique;*/
   font-family: 'Roboto Mono', monospace;
-  filter:brightness(1);
+  
   padding:40px;
-  margin-bottom: 0;
-  margin-left:0;
+  margin-bottom:0;
   margin-right:0;
+  margin-left:0;
   color:white;
-  background-image: url("https://zupimages.net/up/20/41/99zi.jpg");
-  background-size: cover;
-  background-position: bottom;
-  box-sizing: content-box;
+  position: relative;
+  float:center;
 }
 
 
 footer{
 	position: relative;
   bottom: 0;
+  width:100%;
+  margin-left:0;
+  margin-right: 0;
   background-color: black;
   background-size: cover;
   background-position: bottom;
@@ -385,7 +351,7 @@ footer{
 
 
 .footer-distributed h3 span{
-	color:  #5383d3;
+  color:  #ffbc05;
 }
 
 
@@ -456,8 +422,9 @@ footer{
 
 
 .footer-distributed .footer-center p a{
-	color:  #5383d3;
-	text-decoration: none;;
+	color: #ffd105;
+  text-decoration: underline;
+  text-shadow:1px 1px 1px black;
 }
 
 
@@ -502,8 +469,9 @@ footer{
   line-height: 35px;
   border-radius:50%;
   box-shadow: 1px 1px 2px black;
-  margin-right: 28px;
+  margin-right: 20px;
   margin-bottom: 5px;
+  margin-left:12px;
 }
 
 .footer-distributed .footer-names span{
@@ -534,12 +502,13 @@ footer{
 		text-align: center;
 	}
 
+ .outro{
+   margin-left:0;
+   margin-right: 0;
+   margin-bottom:0;
+ }
 
-	.footer-distributed .footer-center i{
-		margin-left: 0;
-	}
-
-	.main {
+.main {
 		line-height: normal;
 		font-size: auto;
 	}
@@ -559,7 +528,7 @@ footer{
 
   .footer-distributed .footer-icons a
   {
-    margin-left:8px;
+    margin-left:15px;
   }
   .button {
     width:90%;
@@ -609,11 +578,17 @@ footer{
     display:flex;
     justify-content: center;
   }
+  .footer-distributed .footer-icons a
+  {
+    margin-right:18px;
+
+  }
+
 }
 @media screen and (max-width:364px)
 {
   .footer-distributed .footer-icons a
   {
-    margin-right:26px;
+    margin:0 12px;
   }
 }
