@@ -233,11 +233,6 @@ section article:nth-child(2n+2) div.inner h2::after {
   left: -5px;
 }
 
- 
-section  article div.inner h2:after {
-  background:  #929191;
-}
- 
 
 .button{
   display:inline-block;
@@ -312,28 +307,36 @@ section  article div.inner h2:after {
   background-size: cover;
   background-repeat: no-repeat;
 }
-
+.conclusion {
+  background-image: url("https://zupimages.net/up/20/41/99zi.jpg");
+  filter:brightness(1);
+  background-size: cover;
+  background-position: bottom;
+  box-shadow:inset 3px 3px 0.3em rgba(255,121,4,1),3px 3px 0.3em  rgba(255,121,4,1);
+}
 .outro{
   text-align: center;
   text-shadow: 3px 3px 2px black;
   font-size: 24px;
   /*font-style: oblique;*/
   font-family: 'Roboto Mono', monospace;
-  filter:brightness(1);
+  
   padding:40px;
-  margin-bottom: -19px;
-  margin-left:-85px;
-  margin-right:-85px;
+  margin-bottom:0;
+  margin-right:0;
+  margin-left:0;
   color:white;
-  background-image: url("https://zupimages.net/up/20/41/99zi.jpg");
-  background-size: cover;
-  background-position: bottom;
+  position: relative;
+  float:center;
 }
 
 
 footer{
 	position: relative;
   bottom: 0;
+  width:100%;
+  margin-left:0;
+  margin-right: 0;
   background-color: black;
   background-size: cover;
   background-position: bottom;
@@ -522,7 +525,11 @@ footer{
 		text-align: center;
 	}
 
- 
+ .outro{
+   margin-left:0;
+   margin-right: 0;
+   margin-bottom:0;
+ }
 	.main {
 		line-height: normal;
 		font-size: auto;
