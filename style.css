@@ -9,7 +9,7 @@ border-bottom: ;
   flex-direction: column;
   margin-bottom: 10%;
 }
- 
+
 .the {
   font-size: 5vw;
   font-weight: 1000;
@@ -45,12 +45,12 @@ border-bottom: ;
         0px -10px 100px  #ff0404;
     }
 }
- 
+
 .firstTitle {
   font-size: 5vw;
   font-weight: 1000;
 }
- 
+
 .secondTitle {
   font-size: 4vw;
   width: 90%;
@@ -59,11 +59,11 @@ border-bottom: ;
   border: 1vw solid red;
   margin: 0 auto;
 }
- 
+
 .insideBorder {
   margin: 0 auto;
 }
- 
+
 .contributors {
   padding-top: 50px;
 }
@@ -79,17 +79,17 @@ border-bottom: ;
   font-size: 2vw;
   text-shadow: red 1px 0 5px;
 }
- 
+
 .axel {
   padding-left: 1.5vw;
   text-shadow: red 1px 0 5px;
 }
- 
+
 .thomas {
   padding-right: 1.5vw;
   text-shadow: red 1px 0 5px;
 }
- 
+
 html, body {
   margin: 0;
   padding: 0;
@@ -192,7 +192,7 @@ section article span {
   background-size: cover;
   box-shadow:inset 0 0 1em rgb(54, 54, 54), 0 0 0.5em rgb(34, 34, 34);
 }
- 
+
 section article div.inner h2 {
   padding: 15px;
   margin: 0;
@@ -243,11 +243,11 @@ section article:nth-child(2n+2) div.inner h2::after {
   left: -5px;
 }
 
- 
+
 section  article div.inner h2:after {
   background:  #929191;
 }
- 
+
 
 .button{
   display:inline-block;
@@ -278,7 +278,7 @@ section  article div.inner h2:after {
 .checkable{
   display:none;
 }
- 
+
 .checkLabel{
   border:1px solid black;
   border-radius: 12px;
@@ -333,13 +333,14 @@ section  article div.inner h2:after {
   font-family: 'Roboto Mono', monospace;
   filter:brightness(1);
   padding:40px;
-  margin-bottom: -19px;
-  margin-left:-85px;
-  margin-right:-85px;
+  margin-bottom: 0;
+  margin-left:0;
+  margin-right:0;
   color:white;
   background-image: url("https://zupimages.net/up/20/41/99zi.jpg");
   background-size: cover;
   background-position: bottom;
+  box-sizing: content-box;
 }
 
 
@@ -358,10 +359,10 @@ footer{
 	text-align: left;
 	font: bold 16px sans-serif;
 
- 
+
 	padding: 55px 50px;
 }
- 
+
 
 .footer-distributed .footer-left,
 .footer-distributed .footer-center,
@@ -370,11 +371,11 @@ footer{
 	vertical-align: top;
 }
 
- 
+
 .footer-distributed .footer-left{
 	width: 40%;
 }
- 
+
 
 .footer-distributed h3{
 	color:  #ffffff;
@@ -382,12 +383,12 @@ footer{
 	margin: 0;
 }
 
- 
+
 .footer-distributed h3 span{
 	color:  #5383d3;
 }
- 
- 
+
+
 
 .footer-distributed .footer-links{
 	color:  #ffffff;
@@ -395,7 +396,7 @@ footer{
 	padding: 0;
 }
 
- 
+
 
 .footer-distributed .footer-links a{
 	display:inline-block;
@@ -412,12 +413,12 @@ footer{
 	margin: 0;
 }
 
- 
- 
+
+
 .footer-distributed .footer-center{
 	width: 35%;
 }
- 
+
 .footer-distributed .footer-center i{
 	background-color:  #33383b;
 	color: #ffffff;
@@ -436,7 +437,7 @@ footer{
 	font-size: 17px;
 	line-height: 38px;
 }
- 
+
 
 .footer-distributed .footer-center p{
 	display: inline-block;
@@ -459,11 +460,11 @@ footer{
 	text-decoration: none;;
 }
 
- 
+
 .footer-distributed .footer-right{
 	width: 20%;
 }
- 
+
 
 .footer-distributed .footer-about{
 	line-height: 20px;
@@ -482,29 +483,27 @@ footer{
 	margin-bottom: 20px;
 }
 
- 
+
 .footer-distributed .footer-icons{
 	margin-top: 25px;
 }
- 
+
 .footer-distributed .footer-icons a{
-	display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-	width: 35px;
-	height: 35px;
-	cursor: pointer;
-	background-color:  #ffffff;
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color:  #FFFFFF;
   border-radius: 2px;
   background-image:url('https://www.flaticon.com/svg/static/icons/svg/185/185964.svg');
-	font-size: 20px;
-	color: #ffffff;
-	line-height: 35px;
+  font-size: 20px;
+  color: #FFFFFF;
+  text-align: center;
+  line-height: 35px;
   border-radius:50%;
   box-shadow: 1px 1px 2px black;
-	margin-right: 28px;
-	margin-bottom: 5px;
+  margin-right: 28px;
+  margin-bottom: 5px;
 }
 
 .footer-distributed .footer-names span{
@@ -517,14 +516,14 @@ footer{
 	font-weight: bold;
 }
 
- 
+
 @media (max-width: 880px) {
- 
+
 	.footer-distributed{
 		font: bold 14px sans-serif;
- 
+
 	}
- 
+
 
 	.footer-distributed .footer-left,
 	.footer-distributed .footer-center,
@@ -535,11 +534,11 @@ footer{
 		text-align: center;
 	}
 
- 
+
 	.footer-distributed .footer-center i{
 		margin-left: 0;
 	}
- 
+
 	.main {
 		line-height: normal;
 		font-size: auto;
@@ -618,4 +617,3 @@ footer{
     margin-right:26px;
   }
 }
-
