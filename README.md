@@ -10,4 +10,4 @@ Denis Cîrlan
 We are 4 students in web developpment bootcamp which name is WILD CODE SCHOOL. 
 The idea of the project is to bring ressources for students of our bootcamp to be successful in their internship searching.
 More technical details in the issue: ideas for new content or upgrades.
-We started our bootcamp 4 weeks ago, be nice :P
+First project after a few weeks of studies.
